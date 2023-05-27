@@ -1,0 +1,346 @@
+
+.sponsorpage{
+    height: fit-content;
+    overflow-x: hidden;
+}
+.getticketsponsor{
+    margin:0;
+    padding: 0 60px;
+  }
+
+.getticketsponsor h1{
+    margin: 0;
+    padding:0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    text-align: center;
+    
+padding-bottom: 3.0rem;
+color: #FFFFFF;
+font-family: Founders Grotesk;
+text-shadow: 0.1rem 0.5rem #fc97d9;
+}
+
+.sponsorbox h1{
+    font-family: Founders Grotesk;
+    color: #FC97D9;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    padding-left: 120px;
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+
+.title-sponsor h3{
+    font-family: Action Sans;
+    color: #DDF140;
+    
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+.title-sponsor a img{
+    width:100%;
+}
+.containersponsorbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.title-sponsor {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.associate-title {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 160px;
+}
+.associate-title2{
+    display: flex;
+    width: calc(100% - 72px);
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+
+.associate-title .individual-associate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+.imgtitle{
+    z-index: 2;
+}
+.media-partner {
+    width: calc(100% - 105px);
+    margin-bottom: 122px;
+}
+
+.event-partner {
+    width: calc(100% - 105px);
+    margin-bottom: 122px;
+}
+
+.other-partner {
+    width: calc(100% - 105px);
+    margin-bottom: 154px;
+}
+
+.partners h3 {
+    font-family: Action Sans;
+    color: #FC97D9;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    padding-bottom: 20px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.text-button {
+    display: flex;
+    width: calc(100% - 105px);
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-button h1{
+    font-family: Founders Grotesk;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    width: 802px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-button button {
+    margin-bottom: 100px;
+    width: 324px;
+    height: 80px;
+    background-color: #F0E266;
+    font-family: Action Sans Bold;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    border: 2px solid #000000;
+}
+
+.individual-partner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.associate-title h3,  .partners-subtitle {
+    font-family: Action Sans;
+    color: #DDF140;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+
+
+
+/* new */
+
+.associateTitle{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width:100%;
+    margin: 0 auto auto auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.otherSponsors{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 70px 190px 120px;
+    justify-content: center;
+    
+}
+
+.otherSponsors div{
+    width: 180px;
+    margin: 0 50px 100px 0;
+}
+
+.otherSponsors p{
+    font-family: 'as';
+    color: #EAEA7C;
+    font-size: 20px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "as";
+    src:local('as'), url('../fonts/ActionSans-Regular.otf');
+}
+
+.in{
+    width: 334px;
+height: 185px;
+background: #192558;
+border: 2.03948px solid #A0A2B2;
+position: absolute;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+top:-12px;
+left:-14px;
+}
+
+.in2{
+    width:242px;
+    height:134px;
+}
+
+
+.out{
+    width: 334px;
+height: 185px;
+background: #3257F2;
+border: 2.03948px solid #A0A2B2;
+position: relative;
+margin: 0 41px;
+margin-bottom: 50px;
+
+}
+
+.out2{
+    width:242px;
+    height:134px;
+}
+.intitle{
+    background: #44C6B6;
+    padding:50px;
+    width: 442.96px;
+    height: 218.07px;
+    position:relative
+}
+.outtitle{
+    background: #fff;
+    width: 442.96px;
+    height: 218.07px;
+  
+}
+
+.svg1{
+    top:-45px;
+    left:410px;
+    position: absolute;
+    z-index: 0;
+}
+
+.svg2{
+    top: 180px;
+    left: -37px;
+    position: absolute;
+    z-index: 0;
+}
+
+.out a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:600px)
+{
+    .getticketsponsor h1{
+        font-size: xxx-large;
+    }
+    .sponsorbox h1{
+     
+        font-size: xxx-large;
+        text-align: center;
+        padding-left: 0px;
+
+    }
+    .body{
+        margin: 0;
+        padding: 0;
+    }
+    .title-sponsor svg{
+        width: 80vw;
+    }
+    .associateTitle{
+        flex-wrap: wrap;
+        width: fit-content;
+        align-items: center;
+    }
+    .text-button button {
+        width: 200px;
+        height: 60px;
+        font-size: 16px;
+    }
+    .text-button{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .text-button h1{
+        font-size: xx-large;
+        width: 100%;
+    }
+    .media-partner{
+        flex-wrap: wrap;
+        width: fit-content;
+        align-items: center;
+    }
+    .tatalogo{
+        width: 80%;
+    }
+    .lastsponsor,.individual-associate{
+        padding-bottom: 30px;
+    }
+    .out{
+        margin-right: 0;
+        width:242px;
+    height:134px;
+
+    }
+    .associateTitle{
+        margin: 10%;
+    }
+    .in{
+        margin-right: 0;
+        width:242px;
+    height:134px;
+    }
+    .out img{
+        width:80%;
+    }
+    
+}

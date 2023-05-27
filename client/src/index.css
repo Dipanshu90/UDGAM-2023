@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Founders Grotesk;
+  src: url(./fonts/FoundersGrotesk-Bold.otf);
+}
+@font-face {
+  font-family: Action Sans;
+  src: url(./fonts/ActionSans-Medium.otf);
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Action Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #1A074E 0%, #060213 100%);
+ height: max-content;
+background-size: cover;
+}
+
+input,textarea{
+  padding-left: 10px;
+  
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+a:link { text-decoration: none; }
+a:link:hover { text-decoration: none; }
+input,textarea,select{
+  font-size:15px!important;
+}
+

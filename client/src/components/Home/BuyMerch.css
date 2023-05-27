@@ -1,0 +1,494 @@
+:root{
+    --clip-start: inset(100% 0 0 0); 
+    --clip-end: inset(0 0 0 0);
+  }
+body{
+    margin: 0;
+    background-color: black;
+    height: 50rem;
+}
+.merch{
+    padding-top: 60px;
+}
+
+.top{
+    display:flex; 
+    align-items: center;
+    justify-content:space-between;
+   
+    
+}
+.topmerch{
+     margin: 60px 0;
+}
+.top h1{
+    color: #DDF140;
+
+}
+
+.buy-merch{
+    padding: 0 120px;
+}
+.topbut{
+    display: flex;
+    /* top: 50px; */
+    /* padding: 18px 4px; */
+    background-color: #09021C;
+    color: #D4F34A;
+    /* justify-content: space-evenly; */
+    height: fit-content;
+    width: fit-content;
+    border: 1.31218px solid #D4F34A;
+    font-family: Action Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15px 36px;
+}
+.topbut img{
+    margin-left: 10px;
+}
+.topbut a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: #D4F34A;
+}
+
+
+.topbut a:hover{
+    text-decoration: none;
+    color: #D4F34A;
+}
+
+.merchImages{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+.columnTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.columnOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 25%;
+}
+.columnThree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 25%;
+}
+.imageThird{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+}
+.imageFour{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -5px;
+    width: 100%;
+    height: 50%;
+}
+.imageTwo{
+    background-color: aquamarine;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    -webkit-filter: grayscale(55%);
+	filter: grayscale(55%);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.imageTwo img{
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+
+.imageTwo:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.imageTwo:hover img{
+    transform:scale(1.1) ;
+     
+}
+.imageOne{
+    background-color:  rgba(240, 226, 102, 1);
+    position: relative;
+    overflow: hidden;
+    -webkit-filter: grayscale(55%);
+	filter: grayscale(55%);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+    width: 100%;
+}
+.imageOne:hover{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.imageOne img{
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+
+.imageOne:hover img{
+    transform:scale(1.1) ;
+   
+    
+}
+.ThirdOne {
+    background-color: aquamarine;
+    position: relative;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center ;
+    width: 339px;
+    height: 339px;
+    -webkit-filter: grayscale(55%);
+	filter: grayscale(55%);
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+    width: 50%;
+    height: 100%;
+}
+.ThirdOne img{
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+
+.ThirdOne:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.ThirdOne:hover img{
+    transform:scale(1.1) ;
+   
+    
+}
+.ThirdTwo {
+    background-color:  rgba(240, 226, 102, 1);
+    position: relative;
+    overflow: hidden;
+    width: 359px;
+   height: 339px;
+   -webkit-filter: grayscale(55%);
+   filter: grayscale(55%);
+   -webkit-transition: 0.5s ease-in-out;
+   transition: 0.5s ease-in-out;
+   width: 50%;
+   height: 100%;
+}
+.ThirdTwo img{
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+
+.ThirdTwo:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.ThirdTwo:hover img{
+    transform:scale(1.1) ;
+   
+    
+}
+.FourOne{
+    background-color:  rgba(240, 226, 102, 1);
+    position: relative;
+    overflow: hidden;
+    height:209px;
+    width:440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-filter: grayscale(55%);
+   filter: grayscale(55%);
+   -webkit-transition: 0.5s ease-in-out;
+   transition: 0.5s ease-in-out;
+   width: 50%;
+   height: 100%;
+}
+.FourOne img{
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+
+.FourOne:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.FourOne:hover img{
+    transform:scale(1.1) ;
+   
+    
+}
+
+.FourTwo{
+    background-color: aquamarine;
+    position: relative;
+    overflow: hidden;
+    height:209px;
+    width: 258px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-filter: grayscale(55%);
+    filter: grayscale(55%);
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    width: 50%;
+    height: 100%;
+}
+.FourTwo img{
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+
+.FourTwo:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.FourTwo:hover img{
+    transform:scale(1.1) ;
+   
+    
+}
+.imageFive{
+    background-color: aquamarine;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center ;
+
+    -webkit-filter: grayscale(55%);
+    filter: grayscale(55%);
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.imageFive img{
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+
+.imageFive:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.imageFive:hover img{
+    transform:scale(1.1) ;
+   
+    
+}
+.imageSix{
+    background-color:  rgba(240, 226, 102, 1);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    height:339px;
+    margin-top: -4.2px;
+    -webkit-filter: grayscale(55%);
+    filter: grayscale(55%);
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+    height: 50%;
+}
+.imageSix img{
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+
+.imageSix:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.imageSix:hover img{
+    transform:scale(1.1) ;
+   
+    
+}
+/* flex: 1 1 auto */
+
+
+.backimg{
+    /* background-image: url("../../icons/backimg.png"); */
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rectangle {
+        width: 200px;
+        height: 100px;
+        background: #f5fbff;
+        z-index: 9;
+      }
+
+.but button{
+    display: flex;
+    /* top: 50px; */
+    /* padding: 18px 4px; */
+    height: 20px;
+    color: #09021C;
+    justify-content: space-evenly;
+    width: 219px;
+    height: 88px;
+    font-family: 'Action Sans';
+    font-style:normal;
+  
+    font-weight: 700;
+font-size: 30px;
+line-height: 100%;
+   
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+.but_merch{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 42%;
+   left: 50%;
+   right: 50%;
+   z-index: 999 ;
+
+}
+.but_merch:hover .imageOne{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+  
+
+@media(min-width: 695px) and (max-width: 934px){
+    .top h1{
+        font-size:245%;
+    }
+}
+
+
+
+@media (max-width: 695px){
+    .top h1{
+        font-size:xxx-large;
+    }
+    .top{
+        display:flex; 
+        align-items: flex-start;
+        /* justify-content:space-between; */
+        flex-direction: column;
+    }
+    .topbut{
+        background-color: #09021C;
+        height:fit-content;
+        color: #D4F34A;
+        width:fit-content;
+         border: 1.31218px solid #D4F34A;
+         font-family: 'Action Sans';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 16px;
+         line-height: 14px;
+         padding: 10px 20px;
+
+    }
+    
+        
+}
+
+@media (max-width:538px) {
+   .top{
+    margin-bottom: 27px;
+   }
+   .ThirdOne{
+    display: none;
+   }
+   .merchImages{
+    flex-direction: column;
+   }
+   .columnThree{
+    width: 100%;
+   }
+   .ThirdTwo{
+    width: 100%;
+   }
+   .columnTwo{
+    width: 100%;
+   }
+   .columnOne{
+    width: 100%;
+   }
+   .FourOne,.FourTwo{
+    height: unset;
+   }
+    .topbut{
+     
+         width:127px;
+         height: fit-content;
+         padding: 5px 16px;
+         margin: 0;
+         
+    }
+    .top svg{
+        display: none;
+    }
+
+    .buy-merch h1{
+        margin: 0;
+    }
+
+    .buy-merch button{
+        margin: 0;
+    }
+
+    .buy-merch{
+        padding: 0 10%;
+    }
+    
+}
+
